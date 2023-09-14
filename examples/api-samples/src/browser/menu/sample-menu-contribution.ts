@@ -79,7 +79,7 @@ export class SampleCommandContribution implements CommandContribution {
         });
         commands.registerCommand(SampleCommand2, {
             execute: () => {
-                alert('This is sample command2!');
+                alert('This is sample command222!');
             }
         });
         commands.registerCommand(SampleCommandConfirmDialog, {
