@@ -20,6 +20,7 @@ import { bindSampleFilteredCommandContribution } from './contribution-filter/sam
 import { bindSampleUnclosableView } from './view/sample-unclosable-view-contribution';
 import { bindSampleOutputChannelWithSeverity } from './output/sample-output-channel-with-severity';
 import { bindSampleMenu } from './menu/sample-menu-contribution';
+import { bindTestMenu } from './menu/test-menu-contribution';
 import { bindSampleFileWatching } from './file-watching/sample-file-watching-contribution';
 import { bindVSXCommand } from './vsx/sample-vsx-command-contribution';
 import { bindSampleToolbarContribution } from './toolbar/sample-toolbar-contribution';
@@ -39,6 +40,7 @@ export default new ContainerModule((
     bindSampleUnclosableView(bind);
     bindSampleOutputChannelWithSeverity(bind);
     bindSampleMenu(bind);
+    bindTestMenu(bind);
     bindSampleFileWatching(bind);
     bindVSXCommand(bind);
     bindSampleFilteredCommandContribution(bind);
